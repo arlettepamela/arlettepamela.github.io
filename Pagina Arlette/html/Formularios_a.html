@@ -1,0 +1,103 @@
+<html>
+<head>
+    <title> Formularios en HTML</title>
+    <link rel="stylesheet" href="../estilo.css" type="text/css">
+    </head>
+    <body>
+    <header>
+        <h1>Identifícate jeje</h1> 
+        </header>
+        <nav>
+            <ul>
+             <li><a href="../html/formatos_a.html">Inicio </a> </li>
+            <li><a href="../html/listas_a.html"> Checklist</a></li>
+            <li><a href="../html/enlaces_a.html">Pelis fav</a></li>
+            <li><a href="../html/tablas_a.html">Flores</a></li>
+            <li><a href="../html/imagenes_a.html">Fotomemorias</a></li>
+            <li><a href="../html/audio_a.html">Música</a></li>
+            <li><a href="../html/video_a.html">Videomemorias</a></li>
+            <li><a href="../html/Formularios_a.html">Quiénsos</a></li>
+            </ul>
+        </nav>
+        <main>
+        <section>
+            
+            <p>.</p>
+            <form id="form1" name="form1" method="get">
+            <label for="usuario">USUARIO:</label>
+            <input  name="usuario"type="text" id="usuario" maxlength="30">
+                <br>
+            <label for="password">CONTRASEÑA:</label>
+            <input  name="password" type="password" id="password" maxlength="6">
+            <input type="submit" name="submit" id="boton" value="Enviar">
+            </form>
+        </section>	
+                <section>
+            
+            <p>¿Quién estuvo ahí?.</p>
+            <form id="form2" name="form2" method="get">
+            <label for="nombre">NOMBRE:</label>
+            <input  name="NOMBRE"type="text" id="nombre" maxlength="30">
+                <br>
+            <label for="Apellido">APELLIDOS:</label>
+            <input  name="apellido" type="apellido" id="apellido" maxlength="30">
+                <br>
+            <label for="edad">EDAD:</label>
+            <input type="number" id="number" name="number" min="0" max="99" required name="edad"  id="edad" maxnumber="2">
+            <br>
+            <label for="pais"> PAIS:</label>
+                
+            <select name="pais" id="pais">
+                <option value="argentina">ARGENTINA</option>
+                <option value="bolivia">BOLIVIA</option>
+                <option value="colombia">COLOMBIA</option>
+                <option value="mexico">MEXICO</option>
+                <option value="Francia">FRANCIA</option>
+                 <option value="Otro">OTRO</option>
+                </select>
+                <br>
+                  <label for="genero"> GENERO:</label>
+                
+            <select name="genero" id="genero">
+                <option value="masculino">MASCULINO</option>
+                <option value="femenino">FEMENINO</option>
+                </select>
+                <br>
+                  <p>
+            <label>  GENERO MUSICAL QUE PREFIERES;</label>
+              <br>
+                <label>
+                    <input type="checkbox" name="musica" value="pop" id="musica1">
+                    POP</label>
+                    
+                <label>
+                    <input type="checkbox" name="musica" value="rock" id="musica2">
+                    ROCK</label>
+                    
+                <label>
+                    <input type="checkbox" name="musica" value="jazz" id="musica3">
+                    JAZZ</label>
+                   
+                <label>
+                    <input type="checkbox" name="musica" value="alternativa" id="musica4">
+                    ALTERNATIVA</label>
+                  
+                 <label>
+                    <input type="checkbox" name="musica" value="clasica" id="musica5">
+                    CLASICA</label>
+                  <label>
+                    <input type="checkbox" name="musica" value="bellakeo" id="musica5">
+                    BELLAKEO</label>
+                    <br>
+                </p>
+                   
+            <input type="submit" name="submit" id="boton" value="Enviar">
+            </form>
+        </section>
+        </main>
+        
+        <footer>
+            <h5>Elaborado por Arlette Vázquez </h5>
+        </footer>
+</body>
+</html>
